@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="manager" />
+        <module name="montage_web_client" />
+        <module name="testRail" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automation" target="1.8" />
+      <module name="linux_receiver" target="1.8" />
+      <module name="manager" target="1.8" />
+      <module name="montage_web_client" target="1.8" />
+      <module name="test_rail" target="1.8" />
+      <module name="testRail" target="1.8" />
+      <module name="web_client" target="1.8" />
+      <module name="whiteboard" target="1.8" />
+      <module name="windows_client" target="1.8" />
+      <module name="windows_receiver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
