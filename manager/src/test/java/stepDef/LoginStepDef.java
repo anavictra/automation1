@@ -18,7 +18,7 @@ public class LoginStepDef extends BaseStepDef {
     public void iAmAtTheLoginPage() throws Throwable {
 
         GeneralUtils.waitForPageLoaded();
-        Thread.sleep(300);
+        Thread.sleep(900);
         Assert.assertTrue("I am at the home page", driver.getCurrentUrl().contains(Constants.urlLogin));
     }
 
